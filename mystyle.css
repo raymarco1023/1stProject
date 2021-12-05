@@ -1,0 +1,159 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #2d3436;
+    background-image: linear-gradient(300deg, #2d3436 55%, #d3d3d3 70%);
+    background-repeat: no repeat;
+    background-size: 200% 250%;
+    font-family: 'Lato', sans-serif;
+    
+}
+p{
+    line-height: 2;
+
+}
+h1, h2, h3{
+    text-align: center;
+
+}
+/*utilities*/
+.btn{
+    display: block;
+    width: 100px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+.contact-btn{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+.button{ background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+/*header*/
+h1{
+    background-color: ;
+}
+header{
+    background-color: ;
+}
+.header-text{
+    text-align: center;
+}
+.menu{
+
+}
+h3{
+    font-size: 24px;
+}
+h1{
+    font-size: 40px;
+}
+.header-text p{
+    font-size: 20px;
+    font-weight: 300;
+}
+/*just a note*/
+nav.menu a:first-child{
+    background-color: darkgrey;
+}
+nav.menu a {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+nav.menu{
+    text-align: center;
+}
+nav.menu a:hover{
+    font-weight: 700;
+    color: blue;
+}
+/*main*/
+h2{
+    font-weight: 300;
+    width: 300px;
+    border-bottom: 1px solid black;
+    margin: 20px auto;
+}
+.bio-section{
+    border-bottom:1px black solid;
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    width: 70%;
+    margin: 10px auto;
+    padding: 25px;
+    border-radius:0%;
+    
+}
+/*footer*/
+footer{
+    text-align: center;
+    color: white;
+    background-color:;
+    height: 100px;
+
+}
+/*servies page*/
+.service-item{
+    width: 60%;
+    height: 300px;
+    border:1px black solid;
+    padding: 30px;
+    margin: 30px;
+}
+.services-container{
+    display: inline-flex;
+}
+
+.service-item a:hover{
+    color: blue;
+}
+/*Contact*/
+.form-1{
+    padding-left: 40%;
+}
+.form-1 .form-group{
+    padding-bottom: 15px;
+}
+.form-1 label{
+    display: block;
+}
+.form-1 input{
+    padding: 5px;
+    width:20%
+}
+.form-1 input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.block{
+    display: block ;
+    padding:0;
+    margin: 20%;
+    text-align: center;
+}
+.block .my-number{
+    text-align: center;
+    margin-top: 50%%;
+
+}
